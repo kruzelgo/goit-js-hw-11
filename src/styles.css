@@ -8,9 +8,9 @@ body {
   max-width: 1000px;
   margin: 0 auto;
   padding: 10px;
-  background: rgb(201, 201, 201, 0.4);
+  background: rgb(201, 201, 201, 0.5);
   border-radius: 10px;
-  box-shadow: 14 10 rgb(127, 137, 141);
+  box-shadow: 2 2 14 10 rgb(127, 137, 141);
 }
 
 h1 {
