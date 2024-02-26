@@ -2,14 +2,18 @@ import axios from 'axios';
 import Notiflix from 'notiflix';
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
+
 const searchForm = document.getElementById('search-form');
 const gallery = document.querySelector('.gallery');
 const loadMoreBtn = document.querySelector('.load-more');
+
 let page = 1;
 let totalHits = 0;
 let lightbox;
+
 const apiKey = '42569428-b104c6fed739ee1603d22c65f';
 const perPage = 40;
+
 const fetchPhotos = async (query, page) => {
   try {
     const { data } = await axios.get(
