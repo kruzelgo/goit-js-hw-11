@@ -162,7 +162,7 @@ const renderPhotos = (data, append = false) => {
     if (append) {
       gallery.innerHTML += markup;
     } else {
-      gallery.innerHTML = markup;w s
+      gallery.innerHTML = markup;
     }
 
     lightbox = new SimpleLightbox('.lightbox');
